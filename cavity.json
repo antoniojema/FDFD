@@ -1,0 +1,22 @@
+{
+    "wavelength_0": 20,
+
+    "grid": {
+        "limits": [0, 10],
+        "step": 0.01
+    },
+
+    "boundaries": ["pec", "pec"],
+
+    "sources": {
+        "electric": [
+            {
+                "type": "uniform",
+                "magnitude": 1,
+                "phase": 0,
+                "direction": [1, 0],
+                "limits": [1, 1]
+            }
+        ]
+    }
+}

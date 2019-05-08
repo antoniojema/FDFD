@@ -1,0 +1,31 @@
+{
+    "wavelength_0": 4,
+
+    "grid": {
+        "limits": [0, 10],
+        "step": 0.01
+    },
+
+    "boundaries": ["mur", "mur"],
+
+    "epsilon": {
+        "yy": [
+            {
+                "limits": [3, 4],
+                "value": 4
+            }
+        ]
+    },
+
+    "sources": {
+        "electric": [
+            {
+                "type": "uniform",
+                "magnitude": 1,
+                "phase": 0,
+                "direction": [1, 1],
+                "limits": [1, 1]
+            }
+        ]
+    }
+}

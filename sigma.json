@@ -1,0 +1,29 @@
+{
+    "wavelength_0": 4,
+
+    "grid": {
+        "limits": [0, 10],
+        "step": 0.01
+    },
+
+    "boundaries": ["mur", "mur"],
+
+    "sigmaE": [
+        {
+            "limits":[3, 6],
+            "value": 1
+        }
+    ],
+
+    "sources": {
+        "electric": [
+            {
+                "type": "uniform",
+                "magnitude": 1,
+                "phase": 0,
+                "direction": [1, 0],
+                "limits": [1, 1]
+            }
+        ]
+    }
+}
